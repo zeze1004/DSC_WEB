@@ -1,13 +1,22 @@
----
-title: Home
----
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    <h1>{{ "Hello World!" | downcase }}</h1>
-  </body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="action.js"></script>
+        <title>DSC UOS</title>
+    </head>
+    <body>
+        <video loop muted autoplay class="bg-video">
+            <source src="assets/hd1000.mp4" type="video/mp4">
+        </video>
+        <div class="logo">DSC UOS</div>
+        <div class="main">
+            <div class="pane grad-left"></div>
+            <h1 class="label-left">Frontend</h1>
+            <div class="slogan"></div>
+            <div class="pane grad-right"></div>
+            <h1 class="label-right">Backend</h1>
+        </div>
+    </body>
 </html>
