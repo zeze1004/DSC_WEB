@@ -2,19 +2,12 @@
 
 .header
 {
-    position: fixed;
-    display: flex;
-    height: 10px;
-    font-size: 24px;
-
-    /* 배치 위치 */
-    align-items: center;
+   position: fixed;
+   align-items: center;
     text-align: center;
-    justify-content: center;
-    color: black;
     font-family: 'Nanum Myeongjo', serif;
-    /* 배치순서 정하기: 1이 젤 앞에 나온다 */
     z-index: 1;
+
 }
 
 .text_title
